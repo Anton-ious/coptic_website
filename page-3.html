@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>تراثى</title>
+        <link rel="icon" href="./images/مهرجان الكرازة.png">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/list.css">
+    </head>
+    <body>
+        <!-- nav --> 
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand d-flex align-items-center" href="./Index.html">
+                    <img src="./images/مهرجان الكرازة.png" alt="شعار" class="logo-n img-fluid rounded-circle">
+                    <h2>
+                      تراثى
+                    </h2>
+                      
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav me-auto px-2">
+                      <a class="nav-link mx-2" aria-current="page" href="./Index.html">الصفحة الرئيسية</a>
+                      <a class="nav-link mx-2" href="./page-2.html">تراث ارثوذكسى</a>
+                      <a class="nav-link active mx-2" href="./page-3.html">قائمتك</a>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+
+        <!-- section-1 display list -->
+
+        <!-- section-1 display list -->
+
+            <section id="section-1">
+
+                <div class="head">
+                    <h3>ألترانيم المضافة الى قائمتك</h3>
+                </div>
+
+                <div class="edit">  
+                    <h2 id="currentname">قائمة 1</h2>
+                    <input type="text" id="listname" placeholder="أدخل الأسم الجديد">
+                    <button onclick="edit_listname()">تعديل اسم القائمة</button>    
+                </div>
+
+                <hr>
+                <div id="view" class="items">
+                </div>
+
+            </section>
+
+        <!-- footer -->
+            <footer>
+
+              <div class="row">
+                <div class="col-lg-6">
+                  <h3>أهم المصادر:</h3>
+                  <div class="d-flex">
+                    <a class="nav-link active  a" aria-current="page" href="./Index.html">الصفحة الرئيسية</a>
+                    <a class="nav-link a" href="./page-2.html">تراث ارثوذكسى</a>
+                    <a class="nav-link" href="./page-3.html">قائمتك</a>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 d-grid justify-content-end px-5">
+                  <h2>تراثى</h2>
+                  <hr>
+                </div>
+              </div>
+
+              <p class="text-center mt-5">تم التطوير بواسطة تراث ارثوذكسى</p>
+
+            </footer>
+
+        <script src="./script/bootstrap.bundle.min.js"></script>
+        <script src="./script/page-2.js"></script>
+    </body>
+</html>
